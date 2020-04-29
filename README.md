@@ -19,5 +19,9 @@ GEF - GDB tool with variable printing in context new monitor box enhancement.
   \# + new block function name<br>
   new variable name + ...<br>
 
+### settings
+boolean global_variable_mode<br>
+when set this global_variable_mode = True under context_monitor() the box will print all the recorded variables not only in current block including global variables.<br>
+
 ### quick test:
 gdb -x PATH/gef.py test_app
