@@ -1,4 +1,4 @@
-capstone==3.0.5.post1
+capstone==4.0.0
 keystone-engine==0.9.1.post3
 pylint==2.3.0
 ropper==1.11.6
